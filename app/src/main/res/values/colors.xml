@@ -6,4 +6,7 @@
     <color name="white">#FFFFFF</color>
     <color name="text_gray">#A9A9A9</color>
     <color name="green_icon">#4CAF50</color>
+    <color  name="azul_escuro">#1565C0</color>
+    <color  name="azul_principal">#2196F3</color>
+    <color  name="dark_azul">#0D47A1</color>
 </resources>
