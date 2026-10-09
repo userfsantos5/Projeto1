@@ -8,9 +8,180 @@
     tools:context=".cachorrosActivity"
     android:background="@color/azul_escuro">
 
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/arrow"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CACHORROS"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="120dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="20dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/midia"
+            />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="MIGUEL"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/card1"
+        android:layout_marginStart="20dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Mídia2"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="LUCAS"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/card2"
+        android:layout_marginStart="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Mídia3"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="MATEUS"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/card1"
+        android:layout_marginStart="50dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Mídia4"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="LUIS"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/card4"
+        android:layout_marginStart="230dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Mídia5"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="KAIQUE"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/card5"
+        android:layout_marginStart="230dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Mídia6"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:text="KAUA"
+            android:layout_marginTop="155dp"
+            android:layout_marginStart="35dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_azul"/>
+
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
